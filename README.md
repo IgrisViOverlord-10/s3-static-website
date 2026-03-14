@@ -90,3 +90,5 @@ Client → S3 Website Endpoint → index.html
 - Bucket Policy Configuration
 
 ( Snapshots available in `Snapshots - 2.pdf` )
+
+---
