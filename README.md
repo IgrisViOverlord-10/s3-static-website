@@ -81,17 +81,18 @@ Client → S3 Website Endpoint → index.html
 
 ---
 
-## 📂 Project Files
+## 📂 Repository Files
 
-- `index.html` – Contains complete static website   
+- `index.html` – Contains complete static website (HTML, CSS, JavaScript)  
 - `README.md` – Project documentation  
+- `s3-architecture.jpg` – Architecture diagram  
+- `Snapshots - 2.pdf` – Project snapshots   
 
 ---
 
 ### 📸 Snapshots include:
 
 - Live Website Output via S3 Endpoint  
-- Architecture Diagram  
 - S3 Bucket Overview  
 - Static Website Hosting Configuration  
 - Bucket Policy Configuration  
