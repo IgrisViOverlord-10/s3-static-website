@@ -14,7 +14,9 @@ Client → S3 Website Endpoint → index.html
 - Amazon S3 stores static website files  
 - Static Website Hosting is enabled  
 - Public read access is configured via bucket policy  
-- S3 Website Endpoint serves content over HTTP  
+- S3 Website Endpoint serves content over HTTP
+
+![S3 Architecture](s3-architecture.jpg)
 
 ---
 
