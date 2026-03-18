@@ -16,6 +16,9 @@ Client → S3 Website Endpoint → index.html
 - Public read access is configured via bucket policy  
 - S3 Website Endpoint serves content over HTTP
 
+---
+
+Architecture 
 ![S3 Architecture](s3-architecture.jpg)
 
 ---
