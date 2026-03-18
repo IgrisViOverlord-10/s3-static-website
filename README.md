@@ -2,18 +2,19 @@
 
 ## 📌 What I Built
 
-This project demonstrates static website hosting using Amazon S3 without provisioning compute resources.
+This project demonstrates static website hosting using Amazon S3 without provisioning any compute resources.  
 The website is served directly through the S3 Website Endpoint, showcasing a serverless hosting model for static content.
 
 ---
 
 ## 🏗 Architecture Flow
 
-Client → S3 Website Endpoint → index.html
+Client → S3 Website Endpoint → index.html  
 
 - Amazon S3 stores static website files  
 - Static Website Hosting is enabled  
 - Public read access is configured via bucket policy  
+- S3 Website Endpoint serves content over HTTP  
 
 ---
 
@@ -68,9 +69,10 @@ Client → S3 Website Endpoint → index.html
 ## 🚀 Key Outcome
 
 - Fully serverless hosting model  
-- No server management required  
+- Eliminated server management overhead using S3  
 - Automatic high availability  
 - Cost-efficient static content delivery  
+- Compared serverless (S3) hosting with compute-based (EC2 + Nginx) deployment models  
 
 ---
 
@@ -87,8 +89,8 @@ Client → S3 Website Endpoint → index.html
 - Architecture Diagram  
 - S3 Bucket Overview  
 - Static Website Hosting Configuration  
-- Bucket Policy Configuration
+- Bucket Policy Configuration  
 
-( Snapshots available in `Snapshots - 2.pdf` )
+Snapshots available in `Snapshots - 2.pdf`
 
 ---
