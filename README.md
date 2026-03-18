@@ -18,7 +18,7 @@ Client → S3 Website Endpoint → index.html
 
 ---
 
-Architecture 
+## Static Website Hosting Architecture on Amazon S3 
 ![S3 Architecture](s3-architecture.jpg)
 
 ---
