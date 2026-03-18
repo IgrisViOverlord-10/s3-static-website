@@ -78,7 +78,7 @@ Client → S3 Website Endpoint → index.html
 
 ## 📂 Project Files
 
-- `index.html` – Contains complete static website (HTML, CSS, JavaScript)  
+- `index.html` – Contains complete static website   
 - `README.md` – Project documentation  
 
 ---
