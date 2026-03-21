@@ -1,6 +1,6 @@
 # ☁️ Static Website Hosting using Amazon S3
 
-## 📌 What I Built
+## 📌 Project Overview
 
 This project demonstrates static website hosting using Amazon S3 without provisioning any compute resources.  
 The website is served directly through the S3 Website Endpoint, showcasing a serverless hosting model for static content.
@@ -13,8 +13,7 @@ Client → S3 Website Endpoint → `index.html`
 
 - Amazon S3 hosts static website files using Static Website Hosting  
 - Bucket policy enables public read access  
-- Content is served directly via the S3 website endpoint (HTTP)  
-
+- Content is served via the S3 website endpoint (HTTP)  
 
 ![S3 Architecture](s3-architecture.jpg)
 
@@ -23,24 +22,20 @@ Client → S3 Website Endpoint → `index.html`
 ## ⚙️ Implementation Summary
 
 ### Bucket Provisioning
-
-- Created globally unique S3 bucket  
+- Created a globally unique S3 bucket  
 - Selected AWS region  
-- Adjusted public access configuration  
+- Configured public access settings  
 
 ### Static Website Configuration
-
 - Enabled Static Website Hosting  
-- Set `index.html` as index document  
+- Set `index.html` as the index document  
 - Retrieved S3 website endpoint  
 
 ### Access Control
-
 - Applied bucket policy allowing `s3:GetObject`  
-- Verified public read access configuration  
+- Verified public read access  
 
 ### Deployment
-
 - Uploaded static website file  
 - Validated object accessibility  
 - Tested website via S3 endpoint  
@@ -61,10 +56,10 @@ Client → S3 Website Endpoint → `index.html`
 
 ## 🔐 Security Considerations
 
-- Public access limited to object-level read only  
+- Public access is enabled for content delivery (not suitable for sensitive data)  
 - No IAM credentials exposed  
 - No compute infrastructure involved  
-- Minimal attack surface compared to server-based hosting  
+- Reduced operational overhead compared to server-based hosting  
 
 ---
 
@@ -74,7 +69,6 @@ Client → S3 Website Endpoint → `index.html`
 - Eliminated server management overhead using S3  
 - Automatic high availability  
 - Cost-efficient static content delivery  
-- Compared serverless (S3) hosting with compute-based (EC2 + Nginx) deployment models  
 
 ---
 
@@ -83,17 +77,15 @@ Client → S3 Website Endpoint → `index.html`
 - `index.html` – Contains complete static website (HTML, CSS, JavaScript)  
 - `README.md` – Project documentation  
 - `s3-architecture.jpg` – Architecture diagram  
-- `Snapshots - 2.pdf` – Project snapshots   
+- `Snapshots - 2.pdf` – Project snapshots  
 
 ---
 
-### 📸 Snapshots include:
+## 📸 Snapshots include:
 
 - Live Website Output via S3 Endpoint  
 - S3 Bucket Overview  
 - Static Website Hosting Configuration  
-- Bucket Policy Configuration  
-
-> Snapshots available in `Snapshots - 2.pdf`
+- Bucket Policy Configuration
 
 ---
