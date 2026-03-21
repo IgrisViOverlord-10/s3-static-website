@@ -9,12 +9,11 @@ The website is served directly through the S3 Website Endpoint, showcasing a ser
 
 ## 🏗 Architecture Flow
 
-Client → S3 Website Endpoint → index.html  
+Client → S3 Website Endpoint → `index.html`
 
-- Amazon S3 stores static website files  
-- Static Website Hosting is enabled  
-- Public read access is configured via bucket policy  
-- S3 Website Endpoint serves content over HTTP
+- Amazon S3 hosts static website files using Static Website Hosting  
+- Bucket policy enables public read access  
+- Content is served directly via the S3 website endpoint (HTTP)  
 
 ---
 
