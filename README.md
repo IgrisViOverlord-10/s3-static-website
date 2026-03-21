@@ -15,9 +15,7 @@ Client → S3 Website Endpoint → `index.html`
 - Bucket policy enables public read access  
 - Content is served directly via the S3 website endpoint (HTTP)  
 
----
 
-## Static Website Hosting Architecture on Amazon S3 
 ![S3 Architecture](s3-architecture.jpg)
 
 ---
