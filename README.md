@@ -7,6 +7,11 @@ The website is served directly through the S3 Website Endpoint, showcasing a ser
 
 ---
 
+## 💻 Tech Stack
+Amazon S3, Static Website Hosting
+
+---
+
 ## 🏗 Architecture Flow
 
 Client → S3 Website Endpoint → `index.html`
