@@ -97,6 +97,6 @@ Client → S3 Website Endpoint → index.html
 - Static Website Hosting Configuration  
 - Bucket Policy Configuration  
 
-Snapshots available in `Snapshots - 2.pdf`
+> Snapshots available in `Snapshots - 2.pdf`
 
 ---
