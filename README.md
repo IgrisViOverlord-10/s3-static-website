@@ -63,6 +63,15 @@ Client → S3 Website Endpoint → `index.html`
 
 ---
 
+## ⚠️ Limitations
+
+- Requires public access for content delivery (not suitable for sensitive data)  
+- Supports only HTTP (no built-in HTTPS support)  
+- No CDN integration, leading to higher latency for global users  
+- Limited scalability compared to CDN-based architectures
+
+---
+
 ## 🚀 Key Outcome
 
 - Fully serverless hosting model  
