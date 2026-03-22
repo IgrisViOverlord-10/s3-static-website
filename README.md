@@ -13,6 +13,7 @@ Serverless static website hosting using Amazon S3 without any compute resources.
 
 ## 🏗 Architecture Flow
 Client → S3 Website Endpoint → index.html
+![S3 Architecture](s3-architecture.jpg)
 
 ---
 
