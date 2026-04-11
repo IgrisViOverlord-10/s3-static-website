@@ -39,12 +39,6 @@ Client → S3 Website Endpoint → index.html
 - Automatic high availability  
 - Cost-efficient static content delivery
 
-## 📂 Repository Files
-- `index.html` – Complete static website (HTML, CSS, JavaScript)  
-- `README.md` – Project documentation  
-- `s3-architecture.jpg` – Architecture diagram  
-- `Snapshots.pdf` – Deployment snapshots
-
 ## 📸 Snapshots Include
 - Live Website Output via S3 Endpoint  
 - S3 Bucket Overview  
